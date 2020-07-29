@@ -1,4 +1,4 @@
-function getData(){
+function getWeatherData(){
     var City = document.getElementById('city').value;
     
     $.ajax({
