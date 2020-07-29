@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>API WEATHER</title>
+<link rel="stylesheet" href="/28July/neelamsoni.github.io/CSS/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body background="/28July/neelamsoni.github.io/Images/weatherimg.jpg">
+
+    <h2>Weather Details</h2>
+    <label>City Name</label> <br>
+    <input type="text" id="city"/> <br/><br/>
+    <button onclick="getData()">Display Weather Data</button> <br/><br/>
+    
+
+    <table style="border: 1px solid black;">
+        <tr>
+            <th>CITY</th>
+            <th>HUMIDITY</th>
+            <th>WEATHER</th>
+            <th>TEMPERATURE</th>
+           
+        </tr>
+
+        <tr>
+            <td id="displayCity"></td>
+            <td id="displayHumidity"></td>
+            <td id="displayWeather"></td>
+            <td id="displayTemp"></td>
+
+        </tr>
+    </table>
+
+    <script src="/28July/neelamsoni.github.io/JS/main.js"></script>
+</body>
+</html>

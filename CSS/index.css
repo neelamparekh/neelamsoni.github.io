@@ -1,0 +1,26 @@
+body{
+    background-size: cover;
+
+}
+button{
+    border-style: double;
+    font-size: 18px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: lawngreen;
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+}
+table, tr, th, td{
+    border: maroon;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
